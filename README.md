@@ -4,11 +4,11 @@
 
 
 ## Introduction
-The Honeynet has now been constructed, and i then assigned a myself a brute force incident to respond to. I used the NIST 800-61 framework to complete the incident response. After the incident response is complete, I will apply controls 
-to harden the resources and re pull maps to assess the before and after of the security controls implimented. 
+The Honeynet has now been constructed, and I then assigned a myself a brute force incident to respond to. I used the NIST 800-61 framework to complete the incident response. After the incident response was complete, I applied controls 
+to harden the resources and re pulled maps to assess the before and after of the security controls implimented. 
 
 ## Incident Description:
-- This incident involves observation of potential brute force attempts against an Windows virtual machine. Below are the action items taken. 
+- This incident involved observation of potential brute force attempts against an Windows virtual machine. Below were the action items taken. 
 
 ## Initial Response Actions
 - Verify the authenticity of the alert or report
