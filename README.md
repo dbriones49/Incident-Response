@@ -26,14 +26,7 @@ to harden the resources and re pulled maps to assess the before and after of the
 
 
 
-# Azure Instances
-![image](https://github.com/dbriones49/Azure-SOC/assets/143753667/35fe6cdb-c3b7-4602-aa17-c68c8d91ac28)
 
-
-# Configured windows registry
-Once SQL server was installed, I configured windows registry to provide full permissions to the server. Configurations were made in Windows Registry. Once completed, audit access was configured using auditpol.
-
-![image](https://github.com/dbriones49/Azure-SOC/assets/143753667/7326f527-5d12-45c8-93ca-a166269e6556)
 
 
 
