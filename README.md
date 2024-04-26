@@ -14,7 +14,9 @@ Once SQL server was installed, I configured windows registry to provide full per
 
 
 
-
+## Introduction
+The Honeynet has now been constructed, and i then assigned a myself a brute force incident to respond to. I used the NIST 800-67 protocal to complete the incident response. After the incident response is complete, I will apply controls 
+to harden the resources and re pull maps to assess the before and after of the security controls implimented. 
 
 
 
