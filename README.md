@@ -11,6 +11,11 @@ I used the NIST 800-61 to respsond to and mitigate the noted brute force attacks
 - This incident involved observation of potential brute force attempts against an Windows virtual machine. Below were the action items taken.
 
 
+
+![image](https://github.com/dbriones49/Incident-Response/assets/143753667/1ae97c06-4065-4122-8323-3377aae59d06)
+
+
+
 ## Step 1: Preperation
 - ( I initially completed this earlier by ingesting all logs into the Log Analytics Workspace and Sentinel, and configured the alert rules)
 
