@@ -24,18 +24,35 @@ I used the NIST 800-61 to respsond to and mitigate the noted brute force attacks
 - Set Severity, Status, Owner
 - View Full Details( New Experieince)
 - Observe the Activity Logs( For history of incident)
-- Observe Entities and Incident Timelines ( are they doing anything else?)
+- Observe Entities and Incident Timelines (are they doing anything else?)
 - "Investigate" the incident and continue trying to determine the scope
 - Inspect the entities and see if there are any related issues.
-- Determine legitimacy of the indident( True Positive, Fals Positive, etc.)
+- Determine legitimacy of the indident( True Positive, False Positive, etc.)
 - If true positive, continue. If false positive, close the ticket.
 
 ## Step 3: Cpontainment, Eredaction, and Recovery
-- Use the Incident response play book
+- Use the Incident response play book ( SOP). AZURE has playbook functionality built in. 
 
 
 ## Step 4: Document findings/information, and close out the incident in Sentinel
   
+
+
+## Detection & Analysis
+To begin, I filtered Sentinel by severity, and addressed one of the few high severity alerts. I assigned the task to myself and statused the incident as "active".
+
+![image](https://github.com/dbriones49/Incident-Response/assets/143753667/9d7bd041-616e-4970-a665-b78fa074d6e9)
+
+
+![image](https://github.com/dbriones49/Incident-Response/assets/143753667/4329508a-8ba6-4194-8826-6f63c1f2ea4d)
+
+
+## View Full Details.
+
+
+
+
+
 
 
 
