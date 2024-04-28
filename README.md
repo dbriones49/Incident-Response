@@ -4,8 +4,8 @@
 
 
 ## Introduction
-The Honeynet has now been constructed, and I then assigned a myself a brute force incident to respond to. I used the NIST 800-61 framework to complete the incident response. After the incident response was complete, I applied controls 
-to harden the resources and re pulled maps to assess the before and after of the security controls implimented. 
+I used the NIST 800-61 to respsond to and mitigate the noted brute force attacks that the honeynet produced.   Using NIST 800-61 is important when completing an incident response on a cyber attack because it provides a comprehensive framework for effectively responding to and mitigating the impact of security indidents. By following the guidelines outline in NIST 800-61, organization can ensure a strucuted and systematic appraoch to indident resonse, leading to quicker detection, containement, and recover from cyber attacks. Additionally, utilizing NIST 800-61 can help organizations improve thier overall cybersecurity posture and better protect their sensitive data and systems from future attacks. 
+
 
 ## Incident Description:
 - This incident involved observation of potential brute force attempts against an Windows virtual machine. Below were the action items taken. 
