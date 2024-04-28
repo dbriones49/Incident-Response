@@ -8,7 +8,35 @@ I used the NIST 800-61 to respsond to and mitigate the noted brute force attacks
 
 
 ## Incident Description:
-- This incident involved observation of potential brute force attempts against an Windows virtual machine. Below were the action items taken. 
+- This incident involved observation of potential brute force attempts against an Windows virtual machine. Below were the action items taken.
+
+
+## Step 1: Preperation
+- ( I initially completed this earlier by ingesting all logs into the Log Analytics Workspace and Sentinel, and configured the alert rules)
+
+
+## Step 2: Detection & Analysis
+- Set Severity, Status, Owner
+- View Full Details( New Experieince)
+- Observe the Activity Logs( For history of incident)
+- Observe Entities and Incident Timelines ( are they doing anything else?)
+- "Investigate" the incident and continue trying to determine the scope
+- Inspect the entities and see if there are any related issues.
+- Determine legitimacy of the indident( True Positive, Fals Positive, etc.)
+- If true positive, continue. If false positive, close the ticket.
+
+## Step 3: Cpontainment, Eredaction, and Recovery
+- Use the Incident response play book
+
+
+## Step 4: Document findings/information, and close out the incident in Sentinel
+  
+
+
+
+
+
+
 
 ## Initial Response Actions
 - Verify the authenticity of the alert or report
