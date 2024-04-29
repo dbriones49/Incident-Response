@@ -102,7 +102,9 @@ For this phase, I relied on the IR playbook, specically assigned to the resource
 
 
 
-Next, I enabled the built in firewall in the Key Vault and created a private endpoint for it, which will make it accessible only from the subnet. Public access to the Storage Accounts were also disabled.
+Next, I enabled the built in firewalls in the Key Vault and Storage Account. I then created a private endpoints for both of them, which will make them accessible only from the subnet. 
+
+
 
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/72d89802-7584-4c62-b24a-f905c3c51595)
 
@@ -118,6 +120,14 @@ Next, I enabled the built in firewall in the Key Vault and created a private end
 
 
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/abb81233-a5ed-45b6-9385-cd8621ca41ef)
+
+
+
+
+
+
+![image](https://github.com/dbriones49/Incident-Response/assets/143753667/b64c25bf-5830-4037-8a42-e7902943d38d)
+
 
 
 
