@@ -70,7 +70,7 @@ By Reviewing the investigation screen, we can determine the scope of the attack.
 
 
 
-## Determine the legitmacy of the incident.
+## Determine the legitimacy of the incident.
 It is import to confirm if the incidents are true positives or false positives. You can confirm this by pulling the oringal alert query and then running specific variations of the query to determine itmes like IP origin, departmnet, etc. You can also confirm with your manager if there has been any recent testing that may have triggered the alerts. In this case, the Matching IP is tied to the attacker VM I created and therefore the incident is deemed as a false positive. 
 
 
@@ -99,9 +99,13 @@ For this phase, I relied on the IR playbook, specically assigned to the resource
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/3a30bf1c-7245-4f3e-916d-99eff5468048)
 
 
-Next, I enabled the built in firewall in the Key Vault. 
+Next, I enabled the built in firewall in the Key Vault and created a private endpoint for it, which will make it accessible only from the subnet.
 
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/72d89802-7584-4c62-b24a-f905c3c51595)
+
+
+![image](https://github.com/dbriones49/Incident-Response/assets/143753667/a8441724-037b-4be7-85d9-cbec10fbb154)
+
 
 
 
