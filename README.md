@@ -42,7 +42,7 @@ I used the NIST 800-61 to respsond to and mitigate the noted brute force attacks
 
 
 ## Detection & Analysis/ Observe the Activity Logs
-To begin, I filtered Sentinel by severity, and addressed one of the few high severity alerts. I assigned the task to myself and statused the incident as "active".
+To begin, I filtered Sentinel by severity. For this example, I addressed one of the few high severity alerts. I assigned the task to myself and statused the incident as "active".
 
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/9d7bd041-616e-4970-a665-b78fa074d6e9)
 
