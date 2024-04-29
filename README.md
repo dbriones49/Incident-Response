@@ -106,25 +106,12 @@ For this phase, I relied on the IR playbook, specically assigned to the resource
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  ## Document Findings and Close out Incident
+ Finally, I entered in my findings in Sentinel, and closed out the ticket.
+ 
 
 
+![image](https://github.com/dbriones49/Incident-Response/assets/143753667/e2b57f17-1421-409a-9903-ea7a51b08aa1)
 
 
 
