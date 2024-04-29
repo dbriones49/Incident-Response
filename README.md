@@ -145,6 +145,20 @@ Finally, I installed a Network Security Group on the subnet as an additional con
 
 
 
+![image](https://github.com/dbriones49/Incident-Response/assets/143753667/f5fecfcb-d309-4fa4-8ac0-387c36da868d)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
