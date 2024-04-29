@@ -191,10 +191,6 @@ Microsoft Defender also provides recommendations of key action items to take fro
 
 
 
-
-
-
 ## Conclusion
-
 Securing the assets of a network through hardening practices is crucial to prevent unauthorized access, data breaches, and other cyber threats. By implementing security measures such as regular software updates, strong password policies, and access controls, organizations can significantly reduce the risk of cyber attacks and protect their sensitive information. 
 
