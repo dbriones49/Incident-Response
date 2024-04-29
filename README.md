@@ -99,6 +99,12 @@ For this phase, I relied on the IR playbook, specically assigned to the resource
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/3a30bf1c-7245-4f3e-916d-99eff5468048)
 
 
+Next, I enabled the built in firewall in the Key Vault. 
+
+![image](https://github.com/dbriones49/Incident-Response/assets/143753667/72d89802-7584-4c62-b24a-f905c3c51595)
+
+
+
 
 
 
