@@ -71,7 +71,7 @@ By Reviewing the investigation screen, we can determine the scope of the attack.
 
 
 ## Determine the legitmacy of the incident.
-It is import to confirm if the incidents are true positives or false positives. You can confirm this by pulling the oringal alert query and then running specific variations of the query to determine itmes like IP origin, departmnet, etc. You can also confirm with your manager if there has been any recent testing that may have triggered the alerts. In this case, the Matching IP is tied to the attacker VM I created and therefore the incident is deemed as a true positive. 
+It is import to confirm if the incidents are true positives or false positives. You can confirm this by pulling the oringal alert query and then running specific variations of the query to determine itmes like IP origin, departmnet, etc. You can also confirm with your manager if there has been any recent testing that may have triggered the alerts. In this case, the Matching IP is tied to the attacker VM I created and therefore the incident is deemed as a false positive. 
 
 
 
@@ -87,7 +87,7 @@ It is import to confirm if the incidents are true positives or false positives. 
 
 ## Containment, Eredaction, and Recovery.
 
-For this phase, I relied on the IR playbook, specically assigned to the resource (Azure Active Directory) and type of incident. For this the actions needed will be to  Lockdown the NSG assigned to the VM, reset the user's password, and enable MFA.
+For this phase, I relied on the IR playbook, specically assigned to the resource (Azure Active Directory) and type of incident. For this the actions needed will be to  Lockdown the NSG assigned to the VM, reset the user's password, and enable MFA. I deemed this as a false positive, so I did not change the password, nor did I isolate the machine. However, I did lock down the NSG firewalls. 
 
 
 
