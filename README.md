@@ -132,6 +132,18 @@ Next, I enabled the built in firewalls in the Key Vault and Storage Account. I t
 
 
 
+Finally, I installed a Network Security Group on the subnet as an additional control.
+
+
+
+
+![image](https://github.com/dbriones49/Incident-Response/assets/143753667/613cee56-98e5-4cb0-98d7-f302537c9051)
+
+
+
+
+
+
 
 
 
