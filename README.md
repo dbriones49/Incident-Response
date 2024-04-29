@@ -103,7 +103,7 @@ For this phase, I relied on the IR playbook, specically assigned to the resource
 
 
 
-Microsoft Defender also provides recommendations of key action items to take from a NIST 800-53 compliance standpoint.   
+Microsoft Defender also provides recommendations of key action items to take from a NIST 800-53 compliance standpoint, that will bring the environment back up to par.   
 
 
 
