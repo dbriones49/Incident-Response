@@ -86,7 +86,7 @@ It is import to confirm if the incidents are true positives or false positives. 
 
 ## Containment, Eredaction, and Recovery.
 
-For this phase, I relied on the IR playbook, specically assigned to the resource (Azure Active Directory). For this the actions needed will be to  Lockdown the NSG assigned to the VM, reset the user's password, and enable MFA.
+For this phase, I relied on the IR playbook, specically assigned to the resource (Azure Active Directory) and type of incident. For this the actions needed will be to  Lockdown the NSG assigned to the VM, reset the user's password, and enable MFA.
 
 
 
