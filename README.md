@@ -166,6 +166,9 @@ Microsoft Defender also provides recommendations of key action items to take fro
 
 
 
+
+
+
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/e55419b7-5e64-47f4-b9fa-863e5c4f223f)
 
 
