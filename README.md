@@ -64,7 +64,8 @@ The event details for each attempt can be viewed in Sentinel. From here I took n
 
 
 ## Investigate the incident.
-By Reviewing the investigation screen, we can determine the scope of the attack. I could see that the attacker was involved in 17 total brute for attempts. I also inspected the host instance as well and determined that the host was involved in 17 other attacks. 
+By Reviewing the investigation screen, we can determine the scope of the attack. I could see that the attacker was involved in several brute for attempts.
+
 
 
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/60da6b6e-0698-41e8-8538-1e9f863c1f8e)
