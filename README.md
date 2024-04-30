@@ -190,8 +190,35 @@ Microsoft Defender also provides recommendations of key action items to take fro
 
 
 
+## Metrics Before Hardening / Security Controls
+
+The following table shows the metrics we measured in our insecure environment for 24 hours:
+Start Time 4/27/2024 10:46:27
+Stop Time 4/28/2024 10:46:27
+
+| Metric                   | Count
+| ------------------------ | -----
+| SecurityEvent            | 11639
+| Syslog                   | 2345
+| SecurityAlert            | 8
+| SecurityIncident         | 263
+| AzureNetworkAnalytics_CL | 1710
 
 
+
+## Metrics After Hardening / Security Controls
+
+The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
+Start Time 4/29/2024 11:02:49
+Stop Time	4/30/2024 11:02:49
+
+| Metric                   | Count
+| ------------------------ | -----
+| SecurityEvent            | 8114
+| Syslog                   | 80
+| SecurityAlert            | 0
+| SecurityIncident         | 0
+| AzureNetworkAnalytics_CL | 23
 
 
 
