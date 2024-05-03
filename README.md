@@ -4,7 +4,7 @@
 
 
 ## Introduction
-I used the NIST 800-61 to respsond to and mitigate the noted brute force attacks that the honeynet produced.   Using NIST 800-61 is important when completing an incident response on a cyber attack because it provides a comprehensive framework for effectively responding to and mitigating the impact of security indidents. By following the guidelines outline in NIST 800-61, organization can ensure a strucuted and systematic appraoch to indident resonse, leading to quicker detection, containement, and recover from cyber attacks. Additionally, utilizing NIST 800-61 can help organizations improve thier overall cybersecurity posture and better protect their sensitive data and systems from future attacks. 
+I used the NIST 800-61 to respond to and mitigate the noted brute force attacks that the honeynet produced.   Using NIST 800-61 is important when completing an incident response on a cyber attack because it provides a comprehensive framework for effectively responding to and mitigating the impact of security incidents. By following the guidelines outline in NIST 800-61, organization can ensure a structured and systematic approach to incident response, leading to quicker detection, containment, and recover from cyber attacks. Additionally, utilizing NIST 800-61 can help organizations improve thier overall cybersecurity posture and better protect their sensitive data and systems from future attacks. 
 
 
 ## Incident Description:
@@ -22,15 +22,15 @@ I used the NIST 800-61 to respsond to and mitigate the noted brute force attacks
 
 ## Step 2: Detection & Analysis
 - Set Severity, Status, Owner
-- View Full Details( New Experieince)
+- View Full Details( New Experience)
 - Observe the Activity Logs( For history of incident)
 - Observe Entities and Incident Timelines (are they doing anything else?)
 - "Investigate" the incident and continue trying to determine the scope
 - Inspect the entities and see if there are any related issues.
-- Determine legitimacy of the indident( True Positive, False Positive, etc.)
+- Determine legitimacy of the incident( True Positive, False Positive, etc.)
 - If true positive, continue. If false positive, close the ticket.
 
-## Step 3: Containment, Eredaction, and Recovery
+## Step 3: Containment, Eradiction, and Recovery
 - Use the Incident response play book ( SOP). AZURE has playbook functionality built in. 
 
 
@@ -46,7 +46,7 @@ I used the NIST 800-61 to respsond to and mitigate the noted brute force attacks
 
 
 ## Detection & Analysis/ Observe the Activity Logs
-To begin, I filtered Sentinel by severity. For this example, I addressed one of the few high severity alerts. I assigned the task to myself and statused the incident as "active".
+To begin, I filtered Sentinel by severity. For this example, I addressed one of the few high severity alerts. I assigned the task to myself and toggled the incident as "active".
 
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/9d7bd041-616e-4970-a665-b78fa074d6e9)
 
@@ -76,7 +76,7 @@ By Reviewing the investigation screen, we can determine the scope of the attack.
 
 
 ## Determine the legitimacy of the incident.
-It is import to confirm if the incidents are true positives or false positives. You can confirm this by pulling the oringal alert query and then running specific variations of the query to determine itmes like IP origin, departmnet, etc. You can also confirm with your manager if there has been any recent testing that may have triggered the alerts. In this case, the Matching IP is tied to the attacker VM I created and therefore the incident is deemed as a false positive. 
+It is import to confirm if the incidents are true positives or false positives. You can confirm this by pulling the original alert query and then running specific variations of the query to determine itmes like IP origin, department, etc. You can also confirm with your manager if there has been any recent testing that may have triggered the alerts. In this case, the Matching IP is tied to the attacker VM I created and therefore the incident is deemed as a false positive. 
 
 
 
@@ -92,7 +92,7 @@ It is import to confirm if the incidents are true positives or false positives. 
 
 ## Containment, Eredaction, and Recovery.
 
-For this phase, I relied on the IR playbook, specically assigned to the resource (Azure Active Directory) and type of incident. For this the actions needed will be to  Lockdown the NSG assigned to the VM, reset the user's password, and enable MFA. I deemed this as a false positive, so I did not change the password, nor did I isolate the machine. However, I did lock down the NSG firewalls. 
+For this phase, I relied on the IR playbook, specifically assigned to the resource (Azure Active Directory) and type of incident. For this the actions needed will be to  Lockdown the NSG assigned to the VM, reset the user's password, and enable MFA. I deemed this as a false positive, so I did not change the password, nor did I isolate the machine. However, I did lock down the NSG firewalls. 
 
 
 
