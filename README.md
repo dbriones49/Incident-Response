@@ -16,7 +16,7 @@ I used the NIST 800-61 to respond to and mitigate the noted brute force attacks 
 
 
 
-## Step 1: Preperation
+## Step 1: Preparation
 - ( I initially completed this earlier by ingesting all logs into the Log Analytics Workspace and Sentinel, and configured the alert rules)
 
 
@@ -30,7 +30,7 @@ I used the NIST 800-61 to respond to and mitigate the noted brute force attacks 
 - Determine legitimacy of the incident( True Positive, False Positive, etc.)
 - If true positive, continue. If false positive, close the ticket.
 
-## Step 3: Containment, Eradiction, and Recovery
+## Step 3: Containment, Eradication, and Recovery
 - Use the Incident response play book ( SOP). AZURE has playbook functionality built in. 
 
 
@@ -76,7 +76,7 @@ By Reviewing the investigation screen, we can determine the scope of the attack.
 
 
 ## Determine the legitimacy of the incident.
-It is import to confirm if the incidents are true positives or false positives. You can confirm this by pulling the original alert query and then running specific variations of the query to determine itmes like IP origin, department, etc. You can also confirm with your manager if there has been any recent testing that may have triggered the alerts. In this case, the Matching IP is tied to the attacker VM I created and therefore the incident is deemed as a false positive. 
+It is import to confirm if the incidents are true positives or false positives. You can confirm this by pulling the original alert query and then running specific variations of the query to determine items like IP origin, department, etc. You can also confirm with your manager if there has been any recent testing that may have triggered the alerts. In this case, the Matching IP is tied to the attacker VM I created and therefore the incident is deemed as a false positive. 
 
 
 
@@ -90,7 +90,7 @@ It is import to confirm if the incidents are true positives or false positives. 
 
 
 
-## Containment, Eredaction, and Recovery.
+## Containment, Eradication, and Recovery.
 
 For this phase, I relied on the IR playbook, specifically assigned to the resource (Azure Active Directory) and type of incident. For this the actions needed will be to  Lockdown the NSG assigned to the VM, reset the user's password, and enable MFA. I deemed this as a false positive, so I did not change the password, nor did I isolate the machine. However, I did lock down the NSG firewalls. 
 
