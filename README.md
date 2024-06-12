@@ -85,7 +85,7 @@ It is import to confirm if the incidents are true positives or false positives. 
 ![image](https://github.com/dbriones49/Incident-Response/assets/143753667/02e2adc0-a577-48cf-8cf6-7cc267b46325)
 
 
-![image](https://github.com/dbriones49/Incident-Response/assets/143753667/10b872bb-252a-4b2d-b35d-9cd1cc5f2609)
+
 
 
 
